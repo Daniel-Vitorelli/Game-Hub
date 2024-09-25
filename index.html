@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/output.css" rel="stylesheet">
+    <title>Game Hub</title>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="relative h-dvh w-full overflow-hidden bg-slate-100">
+
+        <header class="relative h-24 w-full bg-slate-300 shadow-2xl flex justify-around flex-row border-b-4 border-orange-600">
+
+            <a href="#" class="group flex items-center">
+
+                <h1 style="font-family: 'Protest Guerrilla', sans-serif;" class="text-3xl group-hover:text-xl transition-all">
+                    Game
+
+                </h1>
+
+                <img src="assets/controller.png" class="h-24 group-hover:h-28  group-hover:drop-shadow-2xl transition-all">
+
+                <h1 style="font-family: 'Protest Guerrilla', sans-serif;" class="text-3xl group-hover:text-xl transition-all">
+                    Hub
+                </h1>
+
+            </a>
+
+        </header>
+
+        <section class="relative w-full overflow-hidden" style="height: calc(100dvh - 96px);">
+            <div class="h-full w-full absolute bg-orange-400 origin-center rotate-135 -right-1/2 -bottom-1/2 opacity-75"></div>
+            <div class="h-full w-full absolute bg-orange-400 origin-center rotate-45 -right-1/2 -top-1/2 opacity-75"></div>
+            <h1 class="text-2xl ml-2 font-bold" style="max-width: calc(100% - 320px);">Jogue os jogos mais irados do mundo!!!</h1>
+            <section class="relative w-full grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2 auto-rows-min p-2">
+                <a href="pages/the-worlds-hardest-game.html" class="col-span-1 aspect-square rounded-md p-1 cursor-pointer bg-the-worlds-hardest-game hover:scale-105 transition flex flex-col justify-end group bg-center bg-no-repeat bg-cover overflow-hidden">
+                    <h1 class="text-white font-semibold">
+                        The World's Hardest Game
+                    </h1>
+                    <p class="text-white text-xs font-medium hidden group-hover:block">Zere o jogo mais difícil do mundo!!</p>
+                </a>
+            </section>
+        </section>
+
+    </main>
+</body>
+
+</html>
