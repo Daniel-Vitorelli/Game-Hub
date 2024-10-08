@@ -683,10 +683,6 @@ video {
   isolation: auto;
 }
 
-.-z-10 {
-  z-index: -10;
-}
-
 .z-10 {
   z-index: 10;
 }
@@ -699,12 +695,24 @@ video {
   order: 2;
 }
 
+.order-3 {
+  order: 3;
+}
+
+.order-4 {
+  order: 4;
+}
+
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
 
 .col-span-4 {
   grid-column: span 4 / span 4;
+}
+
+.row-span-2 {
+  grid-row: span 2 / span 2;
 }
 
 .float-start {
@@ -1904,11 +1912,6 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-blue-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
-}
-
 .bg-orange-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(251 146 60 / var(--tw-bg-opacity));
@@ -1924,12 +1927,24 @@ video {
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 
-.bg-the-worlds-hardest-game {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("https://cdn.jogos360.com.br/th/ew/the-worlds-hardest-game-d.jpg?width=200&height=200&aspect_ratio=1:1");
+.bg-bad-ice-cream {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("https://cdn.jogos360.com.br/ba/di/bad-ice-cream-d.jpg?width=200&height=200&aspect_ratio=1:1");
 }
 
 .bg-fireboy-watergirl-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("https://cdn.jogos360.com.br/fi/re/fireboy-e-watergirl-in-the-forest-temple-d.jpg?width=200&height=200&aspect_ratio=1:1");
+}
+
+.bg-geometry-dash-online {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("https://cdn.jogos360.com.br/ge/om/geometry-dash-online-d.jpg?width=200&height=200&aspect_ratio=1:1");
+}
+
+.bg-stumble-guys {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("https://cdn.jogos360.com.br/st/um/stumble-guys-d.jpg?width=200&height=200&aspect_ratio=1:1");
+}
+
+.bg-the-worlds-hardest-game {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("https://cdn.jogos360.com.br/th/ew/the-worlds-hardest-game-d.jpg?width=200&height=200&aspect_ratio=1:1");
 }
 
 .decoration-slice {
@@ -2721,6 +2736,11 @@ video {
     display: block;
   }
 
+  .md\:-translate-y-\[21vw\] {
+    --tw-translate-y: -21vw;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
   .md\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
@@ -2729,6 +2749,11 @@ video {
 @media (min-width: 1024px) {
   .lg\:col-span-6 {
     grid-column: span 6 / span 6;
+  }
+
+  .lg\:-translate-y-\[29vw\] {
+    --tw-translate-y: -29vw;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
   .lg\:grid-cols-8 {
